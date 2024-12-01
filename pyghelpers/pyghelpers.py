@@ -541,7 +541,7 @@ class CountDownTimer():
 
         # OK to resume
         pauseTime = time.time() - self.timePaused
-        self.secondsStart = self.secondsStart + pauseTime
+        self.secondsEnd = self.secondsEnd + pauseTime
         self.paused = False
 
 
